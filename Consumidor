@@ -1,0 +1,92 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "name": "Untitled2.ipynb",
+      "provenance": []
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "gRUe8A9MbL4R"
+      },
+      "source": [
+        "#Proyecto 2 Machine learning\n",
+        "#Andres Perez Moreno\n",
+        "#Jodry Mesa Toro\n",
+        "#Nicolas Giraldo Ospina\n",
+        "#Construya un objeto denominado \"Consumidor\". Este debe tener la capacidad de comprar, obtener un salario,\n",
+        "# poseer un volumen de riqueza y a partir de las acciones alterarlo. Tenga presentes las posibles restricciones. \n",
+        "#. Agregue un método de su propia cosecha.\n"
+      ],
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "nlXec1S3bOIS"
+      },
+      "source": [
+        "class Consumidor:\n",
+        "\n",
+        "  def __init__(self,salario:int,compras:int,genero:str):\n",
+        "    self.comprar= compras\n",
+        "    self.salario= salario\n",
+        "    self.genero= genero\n",
+        "  def gener(self,genero:str):\n",
+        "    if gener==\"hombre\":\n",
+        "      print(\"el consumidor es un hombre\")\n",
+        "    elif gener==\"mujer\":\n",
+        "      print(\"el consumidor es una mujer\")\n",
+        "    else:\n",
+        "      print(\"por favor elegir entre hombre o mujer\")\n",
+        "  def vol_riq(self,salario):\n",
+        "    if self.salario >= compras:\n",
+        "      self.salario = self.salario-compras\n",
+        "    elif self.salario==0:\n",
+        "      print(\"se ha gastado todo el salario\")\n",
+        "    else:\n",
+        "      print(f\"solo se le queda {self.salario} de salario\")\n",
+        "\n",
+        "\n",
+        "  \n",
+        "    "
+      ],
+      "execution_count": 24,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "4h-x_E-OkWHO"
+      },
+      "source": [
+        "cons_1 = Consumidor(200,100,\"hombre\")"
+      ],
+      "execution_count": 25,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "1KDkLxF7qzYZ"
+      },
+      "source": [
+        ""
+      ],
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
